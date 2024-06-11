@@ -58,6 +58,7 @@
                             </div>
                         </div>
                     </form>
+                    <a href="/register">Register If Don't Have Account</a>
                 </div>
             </div>
         </div>

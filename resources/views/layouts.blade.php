@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Siswa XII SIJA</title>
+    <title>Laravel Bintang</title>
 
     <!-- Custom fonts for this template-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SISWA SIJA<sup>XII</sup></div>
+                <div class="sidebar-brand-text mx-3">Laravel<sup>Bintang</sup></div>
             </a>
 
             <!-- Divider -->
@@ -44,9 +44,9 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="/dashboard">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Dashsboard</span></a>
             </li>
 
             <!-- Divider -->
@@ -62,17 +62,16 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                    <span>Fitur</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="">Buttons</a>
+                        <h6 class="collapse-header">Fitur</h6>
                         <a href="{{ route('barang.index') }}" class="collapse-item" href="cards.html">Barang</a>
                         <a href="{{ route('kategori.index') }}" class="collapse-item" href="cards.html">Kategori</a>
                         <a href="{{ route('barangmasuk.index') }}" class="collapse-item" href="cards.html">Barang Masuk</a>
                         <a href="{{ route('barangkeluar.index') }}" class="collapse-item" href="cards.html">Barang Keluar</a>
-                        <a class="collapse-item" href="">Cards</a>
+                       
                     </div>
                 </div>
             </li>

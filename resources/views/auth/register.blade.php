@@ -62,6 +62,7 @@
                             </div>
                         </div>
                     </form>
+                    <a href="/login">Login if you have account</a>
                 </div>
             </div>
         </div>

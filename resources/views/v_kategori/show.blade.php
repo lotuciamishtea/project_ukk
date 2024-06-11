@@ -18,17 +18,7 @@
                             </tr>
                             <tr>
                                 <th>Kategori</th>
-                                <td>
-                                    @if($rsetKategori->kategori == 'M')
-                                        Modal (Barang Modal)
-                                    @elseif($rsetKategori->kategori == 'A')
-                                        Alat
-                                    @elseif($rsetKategori->kategori == 'BHP')
-                                        Bahan Habis Pakai
-                                    @else
-                                        Bahan Tidak Habis Pakai
-                                    @endif
-                                </td>
+                                <td>{{ $deskripsiKategori }}</td>
                             </tr>
                         </table>
                         <a href="{{ route('kategori.index') }}" class="btn btn-primary">Kembali</a>
